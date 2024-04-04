@@ -1,0 +1,690 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1920px;
+  background-image: url(../img/oduvnchik.png);
+  background-repeat: no-repeat;
+  background-position: 450px -40px;
+}
+
+header {
+  background-color: #edecf6;
+  padding: 12px 0 21px 0;
+}
+
+.contanier_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu_header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu_header a {
+  text-decoration: none;
+  color: #63678c;
+  font-family: "Montserrat", "regular";
+  font-size: 16px;
+}
+
+.basket {
+  display: flex;
+  gap: 30px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social a {
+  text-decoration: none;
+  color: #63678c;
+  font-family: "Montserrat", "regular";
+  font-size: 16px;
+}
+
+.info {
+  margin-top: 128px;
+  background-image: url(../img/plant.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.contanier_2 {
+  margin: 0 auto;
+  width: 1389px;
+}
+
+.title_info {
+  color: #515076;
+  font-family: "Playfair Display", "regular";
+  font-size: 230px;
+}
+
+.text_info {
+  display: flex;
+  flex-direction: row;
+}
+
+.natural {
+  position: absolute;
+  top: 540px;
+  width: 252px;
+  height: 192x;
+  color: #63678c;
+}
+
+.natural p {
+  font-size: 36px;
+  color: #63678c;
+  font-family: "Montserrat", "regular";
+}
+
+.info_2 {
+  width: 492px;
+
+  font-size: 18px;
+  line-height: 170%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.diamaint {
+  color: #828282;
+  font-family: "Montserrat", "medium";
+  font-size: 18px;
+}
+
+.text_cosmet {
+  color: #828282;
+  font-family: "Montserrat", "regular";
+  font-size: 18px;
+}
+
+.text_using {
+  color: #828282;
+  font-family: "Montserrat", "regular";
+  font-size: 18px;
+}
+
+.oduv {
+  color: #8888a8;
+  font-family: "Montserrat", "regular";
+  font-size: 18px;
+}
+.center_info {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.select {
+  border-radius: 100px;
+  background: rgb(81, 80, 118);
+  padding: 27px 23px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 7px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.complex {
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 170%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ingridients {
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 170%;
+  text-align: left;
+  max-width: 400px;
+}
+.tipe_lether {
+  position: absolute;
+  left: 1400px;
+  top: 980px;
+  width: 172px;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 179.99%;
+  letter-spacing: 30%;
+  text-align: right;
+  text-transform: uppercase;
+}
+.only_natural {
+  position: absolute;
+  right: 380px;
+  top: 1200px;
+  width: 350px;
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 109.4%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.wb {
+  background-image: url(../img/golubika.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.contanier_3 {
+  background-image: url(../img/flowers.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.title_choice {
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 275;
+  line-height: 109.4%;
+  text-align: center;
+}
+.cards_choice {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+.card1_choice {
+  margin-top: 80px;
+  background: rgb(247, 247, 250);
+  padding: 62px 20px 18px;
+}
+.cards_choice p {
+  color: rgb(165, 163, 185);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 199.99%;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.cards_choice h6 {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 136%;
+  text-align: left;
+  margin-top: 4px;
+}
+.pay {
+  display: flex;
+  justify-content: space-between;
+}
+.pay a {
+  margin-top: 35px;
+  text-decoration: none;
+  color: #515076;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card2_choice {
+  background: rgb(247, 247, 250);
+  padding: 69px 20px 13px 20px;
+}
+.sale {
+  margin-top: 35px;
+  text-decoration: line-through;
+}
+.card3_choice {
+  margin-top: 80px;
+  background: rgb(247, 247, 250);
+  padding: 62px 20px 18px;
+}
+.img_sale {
+  position: absolute;
+  top: 2160px;
+}
+.actions {
+  margin-top: 128px;
+  background-image: url(../img/ветка.png);
+  background-repeat: no-repeat;
+}
+.contanier_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.actions h3 {
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 275;
+  text-align: left;
+}
+.special {
+  max-width: 333px;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 199.99%;
+  text-align: left;
+}
+.arrows {
+  display: flex;
+  gap: 20px;
+}
+.invisible {
+  display: flex;
+  background-color: #f7f7fa;
+  padding: 0 0 20px 60px;
+  box-shadow: -40px 40px #515076;
+}
+.invisible_info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.invisible_text {
+  max-width: 333px;
+  color: rgb(76, 80, 114);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 130%;
+}
+.energy {
+  width: 433px;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 200%;
+  text-align: left;
+}
+.contanier_5 {
+  margin-top: 150px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+}
+.sale5 {
+  background-color: #e7e7ed;
+  padding: 25px 65px;
+}
+.sale5 h3 {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 135%;
+  text-align: left;
+}
+.product {
+  background-color: #f7f7fa;
+}
+.product_text {
+  background-color: #f7f7fa;
+  padding: 0 40px 35px;
+}
+.product p {
+  width: 270px;
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135%;
+  text-align: center;
+}
+.pay_2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.pay_2 a:first-child {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135%;
+  text-decoration: line-through;
+}
+.pay_2 a:nth-child(2) {
+  color: #515076cc;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 135%;
+  text-decoration: none;
+}
+.sale5_2 {
+  background-color: #dedee7;
+  padding: 51px 47px 50px 65px;
+}
+.sale5_2 h3 {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 135%;
+}
+.sale5_3 {
+  background-color: #d6d6e0;
+  padding: 75px 44px 76px 57px;
+}
+.sale5_3 h3 {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 135%;
+}
+.card2 {
+  margin-top: -40px;
+}
+.card3 {
+  margin-top: -80px;
+}
+.woman {
+  background-image: url(../img/flower2.png);
+  background-repeat: no-repeat;
+  background-position: right 620px;
+}
+.title_woman {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 300px;
+}
+.title_woman h1 {
+  color: rgb(214, 212, 231);
+  font-family: Playfair Display;
+  font-size: 330px;
+  font-weight: 400;
+  line-height: 92%;
+}
+.contanier_6 {
+  background-image: url(../img/flower2.png);
+  background-repeat: no-repeat;
+  background-position: right 100px;
+  display: flex;
+  background-color: #edecf6;
+  padding: 133px 168px 69px 169px;
+  justify-content: center;
+  margin-top: 210px;
+}
+.testing_woman {
+  width: 343px;
+  color: rgb(165, 163, 185);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.woman_text h4 {
+  margin-top: 70px;
+  width: 334px;
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 275;
+  line-height: 109%;
+}
+.good_result {
+  z-index: 0;
+  width: 462px;
+  margin-top: 60px;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 199%;
+}
+.title-important {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+}
+.title-important p {
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 275;
+  line-height: 109%;
+  text-align: center;
+}
+.important {
+  margin-top: 125px;
+}
+.contanier_7 h4 {
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 275;
+  line-height: 109%;
+  text-align: center;
+}
+.cards_important {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card1_important {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  height: 200px;
+  box-shadow: 0 10px #515076;
+  background-color: #f7f7fa;
+  padding: 36px 14.69px 149px 48.31px;
+}
+.sovet {
+  width: 66px;
+  color: rgb(165, 163, 185);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 199%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.card1_important h6 {
+  width: 147px;
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+}
+.seven {
+  width: 237px;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.card2_important {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px #515076;
+  gap: 40px;
+}
+.card2_important h6 {
+  width: 147px;
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+}
+.number1 {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin-top: 40px;
+  box-shadow: 0 10px #515076;
+  background-color: #f7f7fa;
+  padding: 36px 14.69px 149px 48.31px;
+}
+.number2 {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  
+  background-color: #f7f7fa;
+  padding: 36px 14.69px 149px 48.31px;
+}
+.read {
+  display: flex;
+  gap: 10px;
+  margin-top: 70px;
+}
+.read p {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 199%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.autors {
+  margin-top: 125px;
+  background-image: url(../img/flower3.png);
+  background-repeat: no-repeat;
+  background-position: right 50px 100px;
+}
+.contanier_8 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.idealog h1 {
+  width: 372px;
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 275;
+  line-height: 109%;
+  text-align: left;
+}
+.text_idealog h6 {
+  margin-top: 55px;
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 200%;
+}
+.masha {
+  margin-top: 15px;
+  width: 665px;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  text-align: left;
+}
+.comment {
+  display: flex;
+  gap: 40px;
+}
+.comment p {
+  margin-top: 40px;
+  width: 554px;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: left;
+}
+.slider {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  margin-top: 125px;
+}
+.contacts {
+  box-shadow: 0 10px #515076;
+  width: 332px;
+  z-index: 1;
+  position: relative;
+  top: 600px;
+  left: 260px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7fa;
+  padding: 50px 121px 66.46px 78px;
+}
+.contacts h3 {
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 275;
+  line-height: 109%;
+  text-align: left;
+}
+.number {
+  width: 395px;
+  color: rgb(130, 130, 130);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 200%;
+}
+.adres {
+  color: rgb(130, 130, 130);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 200%;
+}
+.socialss {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
